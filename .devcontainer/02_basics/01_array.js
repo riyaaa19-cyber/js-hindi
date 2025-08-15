@@ -36,5 +36,33 @@
 // console.log(myn2);
 
 
+// const marvel_heros = ["thor", "Ironman", "spiderman"]
+// const dc_heros = ["superman", "batman", "wonderwoman"]
+
+// marvel_heros.push(dc_heros)
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][1]);
+
+// marvel_heros.concat(dc_heros)
+// const allHero = marvel_heros.concat(dc_heros)
+// console.log(allHero);
 
 
+// const all_new_heros = [...marvel_heros, ...dc_heros]
+// console.log(all_new_heros);
+
+
+//it will join the arrays inside the array
+// const another_array = [1, 2, 3,[ 4, 5, 6], 7,[ 8, 9]]
+// const real_another_array = another_array.flat(Infinity)
+// console.log(real_another_array);
+
+// console.log(Array.isArray("riya"))
+// console.log(Array.from("riya"))
+// console.log(Array.from({name: "riya})) //interstingg
+
+let score1 = 100
+let score2 = 200
+let score3 = 500
+
+console.log(Array.of(score1, score2, score3)); 
